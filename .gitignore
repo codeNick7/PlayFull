@@ -1,0 +1,39 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode
+build/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+Lower3rd.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# User-specific / Local caches
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Demo & local test media
+demo-videos/
+*.mp4
+*.mkv
+*.ogv
+!Lower3rd-MacOS/Lower3rd/Resources/intro.mp4
+
+# Temporary files
+*.tmp
+*.log
